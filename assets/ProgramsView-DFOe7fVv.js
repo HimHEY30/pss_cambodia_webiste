@@ -1,0 +1,1 @@
+import{_ as r,c as o,a as s,o as a}from"./index-DPw7gsZr.js";const n={};function t(c,e){return a(),o("div",null,[...e[0]||(e[0]=[s("h1",null,"Program views",-1)])])}const _=r(n,[["render",t]]);export{_ as default};
