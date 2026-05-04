@@ -1,7 +1,8 @@
 import { createI18n } from 'vue-i18n'
 
 import en from './en.json'
-import km from './kh.json'
+import kh from './kh.json'
+import fr from './fr.json'
 
 const i18n = createI18n({
   legacy: false, // important for Vue 3 Composition API
@@ -9,8 +10,9 @@ const i18n = createI18n({
   fallbackLocale: 'en',
   messages: {
     en,
-    km
-  }
+    kh,
+    fr,
+  },
 })
 
 export default i18n

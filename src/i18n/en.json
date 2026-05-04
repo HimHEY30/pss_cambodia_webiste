@@ -1,8 +1,32 @@
 {
   "menu": {
-    "home": "Home",
-    "about": "About",
-    "contact": "Contact"
+      "pss_name" : "PSS Cambodia",
+      "pss_stand_for" : "Promotting Skills for Success",
+      "home": "Home",
+      "about": "About Us",
+      "team": "Our Team",
+      "programs": "Programs",
+      "impact": "Impact",
+      "get_involved": "Get Involved",
+      "contact": "Contact Us",
+      "donate": "Donate now"
   },
-  "welcome": "Welcome to our website"
+  "home": {
+    "hero_title": "Empowering Cambodian Youth Through Skills & Education",
+    "hero_subtitle": "Promoting Skills for Success (PSS) is a local NGO registered with Cambodia’s Ministry of Interior. It fights poverty by unlocking the potential of disadvantaged youth through access to digital education.",
+    "hero_button": "Donate now",
+    "about_pss_eye_catching_title": "About PSS Cambodia",
+    "about_pss_title": "Fighting poverty through digital education.",
+    "about_pss_subtitle": "PSS is the local operational partner of Passerelles Numériques Cambodia (PNC), which began in 2005 in Phnom Penh and offered a two-year, full-time IT training program for underprivileged youth. The program combines software development with soft skills, English, wellbeing activities, and strong employability support. PSS also provides technical support for NomadLab, an open-source solution for ICT infrastructure used as an educational tool for youth clubs, students, teachers, and prisoners in Cambodia to help expand digital access and build digital skills.",
+    "cambodia_context_eye_catching_title": "Cambodia Context",
+    "cambodia_context_title": "The challenge our youth are facing.",
+    "context_s1_value": "75%",
+    "context_s1_label": "of the population lives in rural or remote areas",
+    "context_s2_value": "45%",
+    "context_s2_label": "live on less than USD 3 per day",
+    "context_s3_value": "17.9%",
+    "context_s3_label": "higher education enrollment rate",
+    "context_s4_value": "31.2%",
+    "context_s4_label": "STEM enrollment — men are 2.5× more likely than women to choose STEM"
+  }
 }

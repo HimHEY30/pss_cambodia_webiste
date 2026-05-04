@@ -1,11 +1,17 @@
 <template>
-
-  <div>
-    <h1>Hello world</h1>
+  <div class="absolute top-12 w-full">
+    <HomeHero></HomeHero>
+    <HomeAboutPSS></HomeAboutPSS>
+    <HomeImpact></HomeImpact>
+    <HomeCambodiaContext></HomeCambodiaContext>
   </div>
 </template>
 
 <script setup>
+import HomeHero from '../components/home/HomeHero.vue';
+import HomeAboutPSS from '../components/home/HomeAboutPSS.vue';
+import HomeCambodiaContext from '@/components/home/HomeCambodiaContext.vue';
+import HomeImpact from '@/components/home/HomeImpact.vue';
 
 </script>
 

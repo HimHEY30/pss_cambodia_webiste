@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "pss_name": "PSS Cambodge",
+    "pss_stand_for": "Promouvoir les compétences pour réussir",
+    "home": "Accueil",
+    "about": "À propos",
+    "team": "Notre équipe",
+    "programs": "Programmes",
+    "impact": "Impact",
+    "get_involved": "S'impliquer",
+    "contact": "Contactez-nous",
+    "donate": "Faire un don"
+  },
+  "welcome": "Bienvenue sur notre site web",
+  "home": {
+    "home_hero_title": "Autonomiser la jeunesse cambodgienne par les compétences et l'éducation",
+    "home_hero_subtitle": "Promoting Skills for Success (PSS) est une ONG locale enregistrée auprès du Ministère de l’Intérieur du Cambodge. Elle lutte contre la pauvreté en révélant le potentiel des jeunes défavorisés grâce à l’accès à l’éducation numérique.",
+    "home_hero_button": "Faire un don"
+  }
+}
