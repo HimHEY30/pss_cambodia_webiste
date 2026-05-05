@@ -1,56 +1,82 @@
 {
-  "menu": {
-      "pss_name" : "PSS Cambodia",
-      "pss_stand_for" : "Promotting Skills for Success",
+  "common": {
+    "pss": {
+      "short_name": "PSS Cambodia",
+      "name": "Promoting Skills for Success",
+      "description": "Empowering Youth through Digital Skills and Education"
+    },
+    "navbar": {
       "home": "Home",
       "about": "About Us",
       "team": "Our Team",
       "programs": "Programs",
       "impact": "Impact",
       "get_involved": "Get Involved",
-      "contact": "Contact Us",
-      "donate": "Donate now"
-  },
-  "footer": {
+      "contact": "Contact",
+      "donate": "Donate Now"
+    },
+    "footer": {
+      "quick_links": "Quick Links",
+      "contact": {
+        "title": "Contact Information",
+        "address": "123 Main Street, Phnom Penh, Cambodia",
+        "phone": "+855 123 456 789",
+        "email": "psscambodia.com"
+      },
+      "legal": "Legal",
+      "terms_and_conditions": "Terms & Conditions",
+      "privacy_policy": "Privacy Policy",
       "copy": "© 2026 Promoting Skills for Success Cambodia. All rights reserved."
+    }
   },
   "home": {
-    "hero_title": "Empowering Cambodian Youth Through Skills & Education",
-    "hero_subtitle": "Promoting Skills for Success (PSS) is a local NGO registered with Cambodia’s Ministry of Interior. It fights poverty by unlocking the potential of disadvantaged youth through access to digital education.",
-    "hero_button": "Donate now",
-    "about_pss_eye_catching_title": "About PSS Cambodia",
-    "about_pss_title": "Fighting poverty through digital education.",
-    "about_pss_subtitle": "PSS is the local operational partner of Passerelles Numériques Cambodia (PNC), which began in 2005 in Phnom Penh and offered a two-year, full-time IT training program for underprivileged youth. The program combines software development with soft skills, English, wellbeing activities, and strong employability support. PSS also provides technical support for NomadLab, an open-source solution for ICT infrastructure used as an educational tool for youth clubs, students, teachers, and prisoners in Cambodia to help expand digital access and build digital skills.",
-    "impact_eye_catching_title": "Our Impact",
-    "impact_title_line1": "Real Lives,",
-    "impact_title_line2": "Real Change",
-    "impact_description": "At PSS in partnership with PSS and others, we believe real impact is measured in real outcomes, skills gained, futures transformed, and communities strengthened. Our program empowers young people—especially those from rural and disadvantaged backgrounds—with the technical expertise and professional support needed to thrive in the digital economy.",
-    "impact_quote": "\"With complete support for accommodation, food, equipment, and fully covered health costs, students can focus on learning and building a stable future.\"",
-    "impact_stat1_label": "Graduates",
-    "impact_stat1_sub": "Since 2005, built on 20 years of PNC experience",
-    "impact_stat2_label": "Employment",
-    "impact_stat2_sub": "Working in the IT sector",
-    "impact_stat3_label": "Placement Rate",
-    "impact_stat3_sub": "Found a job within 2 months",
-    "impact_stat4_label": "Young Women",
-    "impact_stat4_sub": "Bridging the gender gap in tech",
-    "cambodia_context_eye_catching_title": "Cambodia Context",
-    "cambodia_context_title": "The challenge our youth are facing.",
-    "context_s1_value": "75%",
-    "context_s1_label": "of the population lives in rural or remote areas",
-    "context_s1_source": "Source: MoP 2025",
-    "context_s2_value": "45%",
-    "context_s2_label": "live on less than USD 3 per day",
-    "context_s2_source": "Source: UNDP 2023",
-    "context_s3_value": "17.9%",
-    "context_s3_label": "higher education enrollment rate",
-    "context_s3_source": "Source: MoEYS 23-24",
-    "context_s4_value": "31.2%",
-    "context_s4_title": "STEM Enrollment",
-    "context_s4_label": "STEM enrollment — men are 2.5× more likely than women to choose STEM",
-    "context_s4_gap": "2.5x Gap",
-    "context_s4_men": "Men",
-    "context_s4_women": "Women",
-    "context_s4_source": "Source: MoEYS 2023–2024"
+    "hero": {
+      "eyes_catching_title": "Welcome to Our Website",
+      "title": "Empowering Cambodian Youth through Skills and Education",
+      "subtitle": "Promoting Skills for Success (PSS) Cambodia is a local non-governmental organization registered with the Ministry of Interior of Cambodia. We are committed to fighting poverty by unlocking the potential of vulnerable youth through providing access to digital education.",
+      "button": "Donate Now"
+    },
+    "about": {
+      "eye_catching_title": "About PSS Cambodia",
+      "title": "Fighting Poverty through Digital Education",
+      "subtitle": "PSS is a local implementing partner of Passerelles Numériques Cambodia (PNC) which started in 2005 in Phnom Penh and has provided a two-year ICT training program for underprivileged youth. The program covers software development, soft skills, English language, health activities, and job search skills support. PSS also provides technical support for NomadLab, a free tool for youth club members, students, teachers, and alumni to expand digital access and build digital skills."
+    },
+    "impact": {
+      "eye_catching_title": "Our Impact",
+      "title_line1": "Real Lives,",
+      "title_line2": "Real Change",
+      "description": "At PSS, in partnership with other organizations, we believe that real impact is measured by real outcomes: the skills acquired, the transformed futures, and the strengthened communities. Our programs provide opportunities for youth, especially those from rural and underprivileged backgrounds, with technical skills and career support to thrive in the digital economy.",
+      "quote": "\"With full support for housing, food, materials, and sufficient health costs, students can focus on their studies and build a sustainable future.\"",
+      "stat1_label": "Graduates",
+      "stat1_sub": "Since 2005 following PNC's 20 years of experience",
+      "stat2_label": "Jobs",
+      "stat2_sub": "Working in the IT sector",
+      "stat3_label": "Placement Rate",
+      "stat3_sub": "Reaching under 2 months to employment",
+      "stat4_label": "Young Women",
+      "stat4_sub": "Closing the gender gap in the tech sector",
+      "stat4_title": "STEM Enrollment",
+      "stat4_gap": "2.5x gap"
+    },
+    "context": {
+      "eye_catching_title": "Cambodia Context",
+      "title": "The Challenges Our Youth Face.",
+      "s1_value": "75%",
+      "s1_label": "of the population lives in rural or remote areas",
+      "s1_source": "Source: MoP 2025",
+      "s2_value": "45%",
+      "s2_label": "living under $3 a day",
+      "s2_source": "Source: UNDP 2023",
+      "s3_value": "17.9%",
+      "s3_label": "higher education enrollment rate",
+      "s3_source": "Source: MoEYS 2023-2024",
+      "s4_value": "31.2%",
+      "s4_label": "STEM enrollment — males have 2.5x more opportunities than females",
+      "s4_title": "STEM Enrollment",
+      "s4_gap": "2.5x gap",
+      "s4_men": "Men",
+      "s4_women": "Women",
+      "s4_source": "Source: MoEYS 2023-2024"
+    }
   }
 }

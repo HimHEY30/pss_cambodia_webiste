@@ -13,19 +13,19 @@
       <span
         class="block text-sm tracking-widest uppercase text-secondary leading-tight mb-4"
       >
-        {{ $t('home.about_pss_eye_catching_title') }}
+        {{ $t('home.about.eye_catching_title') }}
       </span>
 
       <h3
-        class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-none text-primary mb-6"
+        class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-primary mb-6"
       >
-        {{ $t('home.about_pss_title') }}
+        {{ $t('home.about.title') }}
       </h3>
 
       <p
         class="text-base sm:text-md md:text-lg leading-relaxed text-gray-600 max-w-xl"
       >
-        {{ $t('home.about_pss_subtitle') }}
+        {{ $t('home.about.subtitle') }}
       </p>
     </div>
 

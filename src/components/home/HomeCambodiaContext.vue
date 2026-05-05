@@ -4,10 +4,10 @@
       
       <div class="mb-16 max-w-2xl animate-item opacity-0">
         <h2 class="text-sm font-semibold tracking-widest text-secondary uppercase mb-3">
-          {{ t('home.cambodia_context_eye_catching_title') }}
+          {{ t('home.context.eye_catching_title') }}
         </h2>
-        <h3 class="text-5xl md:text-6xl font-bold text-primary leading-none">
-          {{ t('home.cambodia_context_title') }}
+        <h3 class="text-5xl md:text-6xl font-bold text-primary leading-tight">
+          {{ t('home.context.title') }}
         </h3>
       </div>
 
@@ -17,56 +17,56 @@
           <div class="mb-5 text-primary">
             <MapPinIcon :size="32" stroke-width="1.5" />
           </div>
-          <div class="text-4xl font-bold text-slate-900 mb-2">{{ t('home.context_s1_value') }}</div>
+          <div class="text-4xl font-bold text-slate-900 mb-2">{{ t('home.context.s1_value') }}</div>
           <p class="text-slate-600 leading-relaxed mb-4">
-            {{ t('home.context_s1_label') }}
+            {{ t('home.context.s1_label') }}
           </p>
-          <span class="text-xs font-medium text-slate-400 uppercase tracking-wider">{{ t('home.context_s1_source') }}</span>
+          <span class="text-xs font-medium text-slate-400 uppercase tracking-wider">{{ t('home.context.s1_source') }}</span>
         </div>
 
         <div class="stat-card p-8 rounded-2xl border border-slate-100 bg-white hover:shadow-xl transition-all duration-300 opacity-0 transform translate-y-8">
           <div class="mb-5 text-primary">
             <TrendingDownIcon :size="32" stroke-width="1.5" />
           </div>
-          <div class="text-4xl font-bold text-slate-900 mb-2">{{ t('home.context_s2_value') }}</div>
+          <div class="text-4xl font-bold text-slate-900 mb-2">{{ t('home.context.s2_value') }}</div>
           <p class="text-slate-600 leading-relaxed mb-4">
-            {{ t('home.context_s2_label') }}
+            {{ t('home.context.s2_label') }}
           </p>
-          <span class="text-xs font-medium text-slate-400 uppercase tracking-wider">{{ t('home.context_s2_source') }}</span>
+          <span class="text-xs font-medium text-slate-400 uppercase tracking-wider">{{ t('home.context.s2_source') }}</span>
         </div>
 
         <div class="stat-card p-8 rounded-2xl border border-slate-100 bg-white hover:shadow-xl transition-all duration-300 opacity-0 transform translate-y-8">
           <div class="mb-5 text-primary">
             <GraduationCapIcon :size="32" stroke-width="1.5" />
           </div>
-          <div class="text-4xl font-bold text-slate-900 mb-2">{{ t('home.context_s3_value') }}</div>
+          <div class="text-4xl font-bold text-slate-900 mb-2">{{ t('home.context.s3_value') }}</div>
           <p class="text-slate-600 leading-relaxed mb-4">
-            {{ t('home.context_s3_label') }}
+            {{ t('home.context.s3_label') }}
           </p>
-          <span class="text-xs font-medium text-slate-400 uppercase tracking-wider">{{ t('home.context_s3_source') }}</span>
+          <span class="text-xs font-medium text-slate-400 uppercase tracking-wider">{{ t('home.context.s3_source') }}</span>
         </div>
 
         <div class="stat-card p-8 rounded-2xl border-2 border-blue-50 bg-white hover:shadow-xl transition-all duration-300 opacity-0 transform translate-y-8 lg:scale-105 shadow-sm">
           <div class="mb-5 text-primary">
             <MicroscopeIcon :size="32" stroke-width="1.5" />
           </div>
-          <div class="text-4xl font-bold text-slate-900 mb-1">{{ t('home.context_s4_value') }}</div>
-          <div class="text-sm font-semibold text-primary mb-3">{{ t('home.context_s4_title') }}</div>
+          <div class="text-4xl font-bold text-slate-900 mb-1">{{ t('home.context.s4_value') }}</div>
+          <div class="text-sm font-semibold text-primary mb-3">{{ t('home.context.s4_title') }}</div>
           
           <div class="space-y-3 mb-4">
             <div class="flex justify-between items-end text-[10px] font-bold uppercase tracking-tighter text-slate-400">
-              <span>{{ t('home.context_s4_men') }}</span>
-              <span>{{ t('home.context_s4_gap') }}</span>
-              <span>{{ t('home.context_s4_women') }}</span>
+              <span>{{ t('home.context.s4_men') }}</span>
+              <span>{{ t('home.context.s4_gap') }}</span>
+              <span>{{ t('home.context.s4_women') }}</span>
             </div>
             <div class="h-1.5 w-full bg-slate-100 rounded-full flex overflow-hidden">
               <div class="h-full bg-primary w-[71%]"></div> <div class="h-full bg-blue-200 w-[29%]"></div> </div>
             <p class="text-xs text-slate-500 italic">
-              {{ t('home.context_s4_label') }}
+              {{ t('home.context.s4_label') }}
             </p>
           </div>
           
-          <span class="text-xs font-medium text-slate-400 uppercase tracking-wider">{{ t('home.context_s4_source') }}</span>
+          <span class="text-xs font-medium text-slate-400 uppercase tracking-wider">{{ t('home.context.s4_source') }}</span>
         </div>
 
       </div>

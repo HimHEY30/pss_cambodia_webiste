@@ -1,57 +1,82 @@
 {
-  "menu": {
-    "pss_name": "PSS Cambodge",
-    "pss_stand_for": "Promouvoir les compétences pour réussir",
-    "home": "Accueil",
-    "about": "À propos",
-    "team": "Notre équipe",
-    "programs": "Programmes",
-    "impact": "Impact",
-    "get_involved": "S'impliquer",
-    "contact": "Contactez-nous",
-    "donate": "Faire un don"
-  },
-  "welcome": "Bienvenue sur notre site web",
-  "footer": {
-    "copy": "© 2026 Promoting Skills for Success Cambodia. Tous droits réservés."
+  "common": {
+    "pss": {
+      "short_name": "PSS Cambodia",
+      "name": "Promoting Skills for Success",
+      "description": "L'autonomisation des jeunes par les compétences et l'éducation numérique"
+    },
+    "navbar": {
+      "home": "Accueil",
+      "about": "À propos de nous",
+      "team": "Notre équipe",
+      "programs": "Programmes",
+      "impact": "Impact",
+      "get_involved": "S'impliquer",
+      "contact": "Contact",
+      "donate": "Faire un don"
+    },
+    "footer": {
+      "quick_links": "Liens rapides",
+      "contact": {
+        "title": "Informations de contact",
+        "address": "123 Main Street, Phnom Penh, Cambodge",
+        "phone": "+855 123 456 789",
+        "email": "psscambodia.com"
+      },
+      "legal": "Mentions légales",
+      "terms_and_conditions": "Conditions générales",
+      "privacy_policy": "Politique de confidentialité",
+      "copy": "© 2026 Promoting Skills for Success Cambodia. Tous droits réservés."
+    }
   },
   "home": {
-    "hero_title": "Autonomiser la jeunesse cambodgienne par les compétences et l'éducation",
-    "hero_subtitle": "Promoting Skills for Success (PSS) est une ONG locale enregistrée auprès du Ministère de l’Intérieur du Cambodge. Elle lutte contre la pauvreté en révélant le potentiel des jeunes défavorisés grâce à l’accès à l’éducation numérique.",
-    "hero_button": "Faire un don",
-    "about_pss_eye_catching_title": "À propos de PSS Cambodge",
-    "about_pss_title": "Lutter contre la pauvreté par l'éducation numérique.",
-    "about_pss_subtitle": "PSS est le partenaire opérationnel local de Passerelles Numériques Cambodia (PNC), créé en 2005 à Phnom Penh, qui proposait un programme de formation informatique intensif de deux ans pour les jeunes défavorisés. Le programme combine développement logiciel, compétences relationnelles, anglais, activités de bien-être et un accompagnement à l'employabilité. PSS fournit également un support technique pour NomadLab, une solution open source utilisée comme outil éducatif pour les clubs de jeunesse, les étudiants, les enseignants et les prisonniers au Cambodge afin d'élargir l'accès au numérique et renforcer les compétences digitales.",
-    "impact_eye_catching_title": "Notre impact",
-    "impact_title_line1": "Des vies réelles,",
-    "impact_title_line2": "Un vrai changement",
-    "impact_description": "Chez PSS, en partenariat avec PSS et d'autres, nous croyons que l'impact réel se mesure en résultats concrets, compétences acquises, parcours transformés et communautés renforcées. Notre programme donne aux jeunes, en particulier ceux des zones rurales et défavorisées, l'expertise technique et l'accompagnement professionnel nécessaires pour réussir dans l'économie numérique.",
-    "impact_quote": "\"Avec un soutien complet pour l'hébergement, la nourriture, le matériel et des frais de santé entièrement pris en charge, les étudiants peuvent se concentrer sur l'apprentissage et construire un avenir stable.\"",
-    "impact_stat1_label": "Diplômés",
-    "impact_stat1_sub": "Depuis 2005, basé sur 20 ans d'expérience de PNC",
-    "impact_stat2_label": "Emploi",
-    "impact_stat2_sub": "Travaillant dans le secteur informatique",
-    "impact_stat3_label": "Taux de placement",
-    "impact_stat3_sub": "Trouvé un emploi en moins de 2 mois",
-    "impact_stat4_label": "Jeunes femmes",
-    "impact_stat4_sub": "Réduire l'écart entre les sexes dans la tech",
-    "cambodia_context_eye_catching_title": "Contexte du Cambodge",
-    "cambodia_context_title": "Le défi auquel notre jeunesse est confrontée.",
-    "context_s1_value": "75 %",
-    "context_s1_label": "de la population vit en zone rurale ou isolée",
-    "context_s1_source": "Source : MoP 2025",
-    "context_s2_value": "45 %",
-    "context_s2_label": "vivent avec moins de 3 USD par jour",
-    "context_s2_source": "Source : PNUD 2023",
-    "context_s3_value": "17,9 %",
-    "context_s3_label": "taux d'inscription dans l'enseignement supérieur",
-    "context_s3_source": "Source : MoEYS 23-24",
-    "context_s4_value": "31,2 %",
-    "context_s4_title": "Inscription STEM",
-    "context_s4_label": "inscription STEM — les hommes ont 2,5 fois plus de chances que les femmes de choisir le STEM",
-    "context_s4_gap": "Écart 2,5x",
-    "context_s4_men": "Hommes",
-    "context_s4_women": "Femmes",
-    "context_s4_source": "Source : MoEYS 2023–2024"
+    "hero": {
+      "eyes_catching_title": "Bienvenue sur notre site",
+      "title": "L'autonomisation des jeunes cambodgiens par les compétences et l'éducation",
+      "subtitle": "Promoting Skills for Success (PSS) Cambodge est une organisation non gouvernementale locale enregistrée auprès du ministère de l'Intérieur du Cambodge. Nous nous engageons à lutter contre la pauvreté en révélant le potentiel des jeunes vulnérables grâce à l'accès à l'éducation numérique.",
+      "button": "Faire un don"
+    },
+    "about": {
+      "eye_catching_title": "À propos de PSS Cambodge",
+      "title": "Lutter contre la pauvreté par l'éducation numérique",
+      "subtitle": "PSS est le partenaire opérationnel local de Passerelles Numériques Cambodia (PNC), qui a débuté en 2005 à Phnom Penh et a proposé un programme de formation en TIC de deux ans aux jeunes défavorisés. Le programme couvre le développement de logiciels, les compétences transversales, la langue anglaise, les activités de santé et le soutien aux compétences de recherche d'emploi. PSS apporte également un soutien technique à NomadLab, un outil gratuit pour les membres des clubs de jeunes, les étudiants, les enseignants et les anciens élèves afin d'étendre l'accès au numérique et de renforcer les compétences digitales."
+    },
+    "impact": {
+      "eye_catching_title": "Notre Impact",
+      "title_line1": "Des vies réelles,",
+      "title_line2": "Un changement réel",
+      "description": "Chez PSS, en partenariat avec d'autres organisations, nous pensons que l'impact réel se mesure par des résultats concrets : les compétences acquises, les avenirs transformés et les communautés renforcées. Nos programmes offrent aux jeunes, en particulier ceux issus de milieux ruraux et défavorisés, des opportunités de acquérir des compétences techniques et un soutien professionnel pour s'épanouir dans l'économie numérique.",
+      "quote": "\"Grâce à un soutien complet pour l’hébergement, la nourriture, l’équipement et une couverture totale des frais de santé, les étudiants peuvent se concentrer sur l’apprentissage et la construction d’un avenir stable.\"",
+      "stat1_label": "Diplômés",
+      "stat1_sub": "Depuis 2005, fondé sur 20 ans d'expérience de PNC",
+      "stat2_label": "Emplois",
+      "stat2_sub": "Travaillant dans le secteur informatique",
+      "stat3_label": "Taux de placement",
+      "stat3_sub": "Accès à l'emploi en moins de 2 mois",
+      "stat4_label": "Jeunes femmes",
+      "stat4_sub": "Réduire l'écart entre les sexes dans la tech",
+      "stat4_title": "Inscriptions en STEM",
+      "stat4_gap": "Écart de 2,5x"
+    },
+    "context": {
+      "eye_catching_title": "Contexte du Cambodge",
+      "title": "Les défis auxquels nos jeunes sont confrontés.",
+      "s1_value": "75 %",
+      "s1_label": "de la population vit dans des zones rurales ou reculées",
+      "s1_source": "Source : MoP 2025",
+      "s2_value": "45 %",
+      "s2_label": "vivant avec moins de 3 $ par jour",
+      "s2_source": "Source : PNUD 2023",
+      "s3_value": "17,9 %",
+      "s3_label": "taux d'inscription dans l'enseignement supérieur",
+      "s3_source": "Source : MoEYS 2023-2024",
+      "s4_value": "31,2 %",
+      "s4_label": "inscriptions en STEM — les hommes ont 2,5 fois plus d'opportunités que les femmes",
+      "s4_title": "Inscriptions en STEM",
+      "s4_gap": "Écart de 2,5x",
+      "s4_men": "Hommes",
+      "s4_women": "Femmes",
+      "s4_source": "Source : MoEYS 2023-2024"
+    }
   }
 }

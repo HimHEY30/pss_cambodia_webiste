@@ -4,8 +4,8 @@
         <div class="flex items-center gap-3 flex-shrink-0">
             <img src="@/assets/images/pss_logo.png" alt="PSS Logo" class="w-10 h-10 sm:w-12 sm:h-12">
             <div class="hidden sm:block">
-                <h1 class="font-bold text-base sm:text-lg leading-none">{{t('menu.pss_name')}}</h1>
-                <p class="text-xs">{{t('menu.pss_stand_for')}}</p>
+                <h1 class="font-bold text-base sm:text-lg leading-none">{{t('common.pss.short_name')}}</h1>
+                <p class="text-xs">{{t('common.pss.name')}}</p>
             </div>
         </div>
 
@@ -13,31 +13,31 @@
         <ul class="hidden lg:flex gap-2 xl:gap-4 flex-1 justify-center">
             <li><router-link to="/"
                     class="px-2 py-2 text-sm xl:text-base rounded-lg hover:bg-primary-light hover:transition duration-300">{{
-                        t('menu.home') }}</router-link>
+                        t('common.navbar.home') }}</router-link>
             </li>
             <li><router-link to="/about"
                     class="px-2 py-2 text-sm xl:text-base rounded-lg hover:bg-primary-light hover:transition duration-300">{{
-                        t('menu.about') }}</router-link>
+                        t('common.navbar.about') }}</router-link>
             </li>
             <li><router-link to="/team"
                     class="px-2 py-2 text-sm xl:text-base rounded-lg hover:bg-primary-light hover:transition duration-300">{{
-                        t('menu.team') }}</router-link>
+                        t('common.navbar.team') }}</router-link>
             </li>
             <li><router-link to="/programs"
                     class="px-2 py-2 text-sm xl:text-base rounded-lg hover:bg-primary-light hover:transition duration-300">{{
-                        t('menu.programs') }}</router-link>
+                        t('common.navbar.programs') }}</router-link>
             </li>
             <li><router-link to="/impact"
                     class="px-2 py-2 text-sm xl:text-base rounded-lg hover:bg-primary-light hover:transition duration-300">{{
-                        t('menu.impact') }}</router-link>
+                        t('common.navbar.impact') }}</router-link>
             </li>
             <li><router-link to="/get-involved"
                     class="px-2 py-2 text-sm xl:text-base rounded-lg hover:bg-primary-light hover:transition duration-300">{{
-                        t('menu.get_involved') }}</router-link>
+                        t('common.navbar.get_involved') }}</router-link>
             </li>
             <li><router-link to="/contact"
                     class="px-2 py-2 text-sm xl:text-base rounded-lg hover:bg-primary-light hover:transition duration-300">{{
-                        t('menu.contact') }}</router-link>
+                        t('common.navbar.contact') }}</router-link>
             </li>
         </ul>
 
@@ -79,7 +79,7 @@
 
             <button
                 class="px-3 py-2 text-sm bg-secondary rounded-xl hover:bg-secondary-light transition-colors duration-300">{{
-                    t('menu.donate') }}</button>
+                    t('common.navbar.donate') }}</button>
         </div>
 
         <!-- Mobile/Tablet Menu Button -->
@@ -99,23 +99,23 @@
     <div v-if="isMenuOpen"
         class="lg:hidden bg-primary-dark text-white px-4 py-4 space-y-3 animate-in fade-in duration-200">
         <router-link to="/" class="block px-4 py-2 rounded-lg hover:bg-primary-light hover:transition duration-300"
-            @click="closeMenu">{{ t('menu.home') }}</router-link>
+            @click="closeMenu">{{ t('common.navbar.home') }}</router-link>
         <router-link to="/about" class="block px-4 py-2 rounded-lg hover:bg-primary-light hover:transition duration-300"
-            @click="closeMenu">{{ t('menu.about') }}</router-link>
+            @click="closeMenu">{{ t('common.navbar.about') }}</router-link>
         <router-link to="/team" class="block px-4 py-2 rounded-lg hover:bg-primary-light hover:transition duration-300"
-            @click="closeMenu">{{ t('menu.team') }}</router-link>
+            @click="closeMenu">{{ t('common.navbar.team') }}</router-link>
         <router-link to="/programs"
             class="block px-4 py-2 rounded-lg hover:bg-primary-light hover:transition duration-300"
-            @click="closeMenu">{{ t('menu.programs') }}</router-link>
+            @click="closeMenu">{{ t('common.navbar.programs') }}</router-link>
         <router-link to="/impact"
             class="block px-4 py-2 rounded-lg hover:bg-primary-light hover:transition duration-300"
-            @click="closeMenu">{{ t('menu.impact') }}</router-link>
+            @click="closeMenu">{{ t('common.navbar.impact') }}</router-link>
         <router-link to="/get-involved"
             class="block px-4 py-2 rounded-lg hover:bg-primary-light hover:transition duration-300"
-            @click="closeMenu">{{ t('menu.get_involved') }}</router-link>
+            @click="closeMenu">{{ t('common.navbar.get_involved') }}</router-link>
         <router-link to="/contact"
             class="block px-4 py-2 rounded-lg hover:bg-primary-light hover:transition duration-300"
-            @click="closeMenu">{{ t('menu.contact') }}</router-link>
+            @click="closeMenu">{{ t('common.navbar.contact') }}</router-link>
 
         <div class="flex flex-col gap-3 pt-3 border-t border-primary-light">
             <!-- Mobile Language Dropdown -->
@@ -156,7 +156,7 @@
 
             <button
                 class="w-full px-4 py-2 bg-secondary rounded-xl hover:bg-secondary-light transition-colors duration-300 text-sm">{{
-                    t('menu.donate') }}</button>
+                    t('common.navbar.donate') }}</button>
         </div>
     </div>
 </template>

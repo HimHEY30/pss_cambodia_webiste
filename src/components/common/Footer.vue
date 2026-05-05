@@ -7,63 +7,71 @@
           <div class="flex items-center space-x-2">
             <img src="@/assets/images/pss_logo.png" alt="PSS Logo" class="w-16 h-16">
             <div class="text-white">
-                <p class="text-2xl font-bold leading-none">{{ t('menu.pss_name')}}</p>
-                <p class="text-sm"> {{ t('menu.pss_stand_for') }}</p>
+                <p class="text-2xl font-bold leading-none">{{ t('common.pss.short_name') }}</p>
+                <p class="text-sm"> {{ t('common.pss.name') }}</p>
             </div>
           </div>
           <p class="text-slate-50 leading-relaxed text-sm opacity-90">
-            {{ t('home.hero_subtitle') }}
+            {{ t('home.hero.subtitle') }}
           </p>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold mb-6 border-b border-white/20 pb-2 inline-block text-slate-00">Quick Links</h3>
+          <h3 class="text-lg font-semibold mb-6 border-b border-white/20 pb-2 inline-block text-slate-00">{{ t('common.footer.quick_links') }}</h3>
           <ul class="space-y-2">
             <li>
               <a class="text-slate-50 hover:text-slate-300 transition-colors duration-200 text-sm">
-                {{ t("menu.home")}}
+                {{ t("common.navbar.home")}}
               </a>
             </li>
             <li>
               <a class="text-slate-50 hover:text-slate-300 transition-colors duration-200 text-sm">
-                {{ t("menu.about")}}
+                {{ t("common.navbar.about")}}
               </a>
             </li>
             <li>
               <a class="text-slate-50 hover:text-slate-300 transition-colors duration-200 text-sm">
-                {{ t("menu.team")}}
+                {{ t("common.navbar.team")}}
               </a>
             </li>
             <li>
               <a class="text-slate-50 hover:text-slate-300 transition-colors duration-200 text-sm">
-                {{ t("menu.programs")}}
+                {{ t("common.navbar.programs")}}
               </a>
             </li>
             <li>
               <a class="text-slate-50 hover:text-slate-300 transition-colors duration-200 text-sm">
-                {{ t("menu.impact")}}
+                {{ t("common.navbar.impact")}}
               </a>
             </li>
             <li>
               <a class="text-slate-50 hover:text-slate-300 transition-colors duration-200 text-sm">
-                {{ t("menu.get_involved")}}
+                {{ t("common.navbar.get_involved")}}
               </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold mb-6 border-b border-white/20 pb-2 inline-block">Contact Us</h3>
+          <h3 class="text-lg font-semibold mb-6 border-b border-white/20 pb-2 inline-block">{{ t('common.footer.contact.title') }}</h3>
           <ul class="space-y-4">
-            <li v-for="item in contactInfo" :key="item.text" class="flex items-start space-x-3 group">
-              <component :is="item.icon" class="w-5 h-5 text-white/80 group-hover:text-white transition-colors" />
-              <span class="text-sm text-slate-50">{{ item.text }}</span>
+            <li class="flex items-start space-x-3 group">
+              <component :is="Mail" class="w-5 h-5 text-white/80 group-hover:text-white transition-colors" />
+              <span class="text-sm text-slate-50">{{ t('common.footer.contact.email') }}</span>
+            </li>
+            <li class="flex items-start space-x-3 group">
+              <component :is="Phone" class="w-5 h-5 text-white/80 group-hover:text-white transition-colors" />
+              <span class="text-sm text-slate-50">{{ t('common.footer.contact.phone') }}</span>
+            </li>
+            <li class="flex items-start space-x-3 group">
+              <component :is="MapPin" class="w-5 h-5 text-white/80 group-hover:text-white transition-colors" />
+              <span class="text-sm text-slate-50">{{ t('common.footer.contact.address') }}</span>
             </li>
           </ul>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold mb-6 border-b border-white/20 pb-2 inline-block">Legal</h3>
+          <h3 class="text-lg font-semibold mb-6 border-b border-white/20 pb-2 inline-block">{{ t('common.footer.legal') }}</h3>
           <ul class="space-y-3">
             <li v-for="legal in legalLinks" :key="legal.name">
               <a :href="legal.href" class="text-slate-50 hover:text-slate-300 transition-colors duration-200 text-sm">
@@ -78,11 +86,10 @@
 
     <div class="bg-[#22bbea] brightness-90 py-6 px-6 border-t border-white/10">
       <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-xs text-slate-100/80">
-        <p>&copy; {{ currentYear }} Promotting Skills for Success. All rights reserved.</p>
+        <p>&copy; {{ currentYear }} {{ t('common.footer.copy') }}</p>
         <div class="mt-4 md:mt-0 flex space-x-6">
-          <span>Privacy Policy</span>
-          <span>Terms of Service</span>
-          <span>Cookies</span>
+          <span>{{ t('common.footer.privacy_policy') }}</span>
+          <span>{{ t('common.footer.terms_and_conditions') }}</span>
         </div>
       </div>
     </div>
@@ -99,26 +106,12 @@ import {
   MapPin 
 } from 'lucide-vue-next';
 
-// Data Arrays for Clean Maintenance
-const quickLinks = [
-  { name: t('menu.home'), href: '#' },
-  { name: t('menu.about'), href: '#' },
-  { name: t('menu.team'), href: '#' },
-  { name: t('menu.programs'), href: '#' },
-  { name: t('menu.impact'), href: '#' },
-  { name: t('menu.get_involved'), href: '#' },
-];
 
-const contactInfo = [
-  { icon: Mail, text: 'psscambodia@info.com' },
-  { icon: Phone, text: '(+855) 123-456-7890' },
-  { icon: MapPin, text: 'Phnom Penh Cambodia' },
-];
+
 
 const legalLinks = [
-  { name: 'Terms & Conditions', href: '#' },
-  { name: 'Privacy Policy', href: '#' },
-  { name: 'Cookie Policy', href: '#' },
+  { name: t('common.footer.terms_and_conditions'), href: '#' },
+  { name: t('common.footer.privacy_policy'), href: '#' },
 ];
 
 // Dynamic Year Logic

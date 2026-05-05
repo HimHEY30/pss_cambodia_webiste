@@ -21,29 +21,29 @@ const stats = [
   { 
     value: 1800, 
     suffix: '+', 
-    labelKey: 'home.impact_stat1_label', 
-    subKey: 'home.impact_stat1_sub',
+    labelKey: 'home.impact.stat1_label', 
+    subKey: 'home.impact.stat1_sub',
     icon: GraduationCap 
   },
   { 
     value: 98, 
     suffix: '%', 
-    labelKey: 'home.impact_stat2_label', 
-    subKey: 'home.impact_stat2_sub',
+    labelKey: 'home.impact.stat2_label', 
+    subKey: 'home.impact.stat2_sub',
     icon: Briefcase 
   },
   { 
     value: 92, 
     suffix: '%', 
-    labelKey: 'home.impact_stat3_label', 
-    subKey: 'home.impact_stat3_sub',
+    labelKey: 'home.impact.stat3_label', 
+    subKey: 'home.impact.stat3_sub',
     icon: Clock 
   },
   { 
     value: 52, 
     suffix: '%', 
-    labelKey: 'home.impact_stat4_label', 
-    subKey: 'home.impact_stat4_sub',
+    labelKey: 'home.impact.stat4_label', 
+    subKey: 'home.impact.stat4_sub',
     icon: Users 
   }
 ];
@@ -105,21 +105,21 @@ onMounted(() => {
           <span
         class="block text-sm tracking-widest uppercase text-shadow-lg text-white leading-tight mb-4"
       >
-        {{ t('home.impact_eye_catching_title') }}
+        {{ t('home.impact.eye_catching_title') }}
       </span>
         <h2 class="text-secondary text-shadow-lg text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-          {{ t('home.impact_title_line1') }} <br />
-          <span class="text-blue-50">{{ t('home.impact_title_line2') }}</span>
+          {{ t('home.impact.title_line1') }} <br />
+          <span class="text-blue-50">{{ t('home.impact.title_line2') }}</span>
         </h2>
         
         <p class="text-white/90 text-lg md:text-xl leading-relaxed max-w-xl">
-          {{ t('home.impact_description') }}
+          {{ t('home.impact.description') }}
         </p>
 
         <div class="pt-4">
           <div class="inline-flex items-center p-4 bg-white/10 rounded-xl border border-white/20 backdrop-blur-sm">
             <p class="text-white text-sm md:text-base italic">
-              {{ t('home.impact_quote') }}
+              {{ t('home.impact.quote') }}
             </p>
           </div>
         </div>
