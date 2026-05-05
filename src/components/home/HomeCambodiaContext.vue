@@ -111,7 +111,7 @@ onMounted(() => {
     gsap.to('.stat-card', {
       opacity: 1,
       y: 0,
-      duration: 1,
+      duration: 0.5,
       stagger: 0.15,
       ease: 'power4.out',
       scrollTrigger: {
