@@ -1,0 +1,1 @@
+import{u as a,c as s,a as r,t,b as n,o}from"./index-B5dbJm8o.js";const p={__name:"ProgramsView",setup(c){const{t:e}=a();return(u,l)=>(o(),s("div",null,[r("h1",null,t(n(e)("menu.programs")),1)]))}};export{p as default};

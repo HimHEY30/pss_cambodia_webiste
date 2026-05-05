@@ -1,1 +1,0 @@
-import{_ as t,c as n,a as o,o as s}from"./index-DPw7gsZr.js";const a={};function c(r,e){return s(),n("div",null,[...e[0]||(e[0]=[o("h1",null,"Contact us view",-1)])])}const _=t(a,[["render",c]]);export{_ as default};

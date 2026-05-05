@@ -1,0 +1,1 @@
+import{u as t,c as a,a as s,t as o,b as n,o as c}from"./index-B5dbJm8o.js";const r={class:"about"},p={__name:"AboutView",setup(u){const{t:e}=t();return(_,l)=>(c(),a("div",r,[s("h1",null,o(n(e)("menu.about")),1)]))}};export{p as default};
