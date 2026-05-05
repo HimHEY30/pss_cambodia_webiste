@@ -1,1 +1,0 @@
-import{u as t,c as a,b as n,t as s,e as c,d as o}from"./index-CBb4w7YI.js";const p={__name:"ContactUsView",setup(r){const{t:e}=t();return(u,l)=>(o(),a("div",null,[n("h1",null,s(c(e)("menu.contact")),1)]))}};export{p as default};

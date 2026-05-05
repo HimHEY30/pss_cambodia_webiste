@@ -1,0 +1,1 @@
+import{u as t,c as n,b as a,t as s,e as o,d as r}from"./index-TKD_25L6.js";const i={__name:"GetInvolvedView",setup(c){const{t:e}=t();return(l,u)=>(r(),n("div",null,[a("h1",null,s(o(e)("menu.get_involved")),1)]))}};export{i as default};
