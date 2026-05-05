@@ -25,7 +25,7 @@
           <div class="hero-cta opacity-0 translate-y-4">
             <router-link 
               to="/get-involved" 
-              class="inline-block px-8 py-4 bg-secondary text-primary rounded-xl hover:bg-white hover:scale-105 transition-all duration-300 font-bold shadow-lg shadow-secondary/20"
+              class="inline-block px-8 py-4 bg-secondary text-white rounded-xl hover:bg-secondary/80 hover:scale-105 transition-all duration-300 font-bold shadow-lg shadow-secondary/20"
             >
               {{ t('home.hero.button') }}
             </router-link>

@@ -138,8 +138,8 @@
         </div>
       </div>
     </section>
+    <Footer></Footer>
   </div>
-  <Footer></Footer>
 </template>
 
 <script setup>
