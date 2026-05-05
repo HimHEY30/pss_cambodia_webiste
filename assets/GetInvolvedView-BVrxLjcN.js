@@ -1,1 +1,0 @@
-import{u as t,c as a,a as n,t as s,b as o,o as r}from"./index-DrSS3D3z.js";const i={__name:"GetInvolvedView",setup(c){const{t:e}=t();return(l,u)=>(r(),a("div",null,[n("h1",null,s(o(e)("menu.get_involved")),1)]))}};export{i as default};

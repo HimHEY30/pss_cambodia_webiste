@@ -1,1 +1,0 @@
-import{u as t,c as a,a as n,t as s,b as c,o}from"./index-DrSS3D3z.js";const p={__name:"ContactUsView",setup(r){const{t:e}=t();return(u,l)=>(o(),a("div",null,[n("h1",null,s(c(e)("menu.contact")),1)]))}};export{p as default};
