@@ -1,0 +1,1 @@
+import{u as a,c as t,a as s,t as n,b as r,o}from"./index-DrSS3D3z.js";const _={__name:"OurTeamView",setup(c){const{t:e}=a();return(u,l)=>(o(),t("div",null,[s("h1",null,n(r(e)("menu.team")),1)]))}};export{_ as default};

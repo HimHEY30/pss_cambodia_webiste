@@ -1,0 +1,1 @@
+import{u as a,c as t,a as s,t as n,b as c,o}from"./index-DrSS3D3z.js";const m={__name:"ImpactView",setup(r){const{t:e}=a();return(u,l)=>(o(),t("div",null,[s("h1",null,n(c(e)("menu.impact")),1)]))}};export{m as default};
