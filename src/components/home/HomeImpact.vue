@@ -1,5 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue';
+import { useI18n } from 'vue-i18n';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { 
@@ -11,6 +12,7 @@ import {
 
 gsap.registerPlugin(ScrollTrigger);
 
+const { t } = useI18n();
 const sectionRef = ref(null);
 const statsContainer = ref(null);
 
@@ -19,29 +21,29 @@ const stats = [
   { 
     value: 1800, 
     suffix: '+', 
-    label: 'Graduates', 
-    sub: 'Since 2005, built on 20 years of PNC experience',
+    labelKey: 'home.impact_stat1_label', 
+    subKey: 'home.impact_stat1_sub',
     icon: GraduationCap 
   },
   { 
     value: 98, 
     suffix: '%', 
-    label: 'Employment', 
-    sub: 'Working in the IT sector',
+    labelKey: 'home.impact_stat2_label', 
+    subKey: 'home.impact_stat2_sub',
     icon: Briefcase 
   },
   { 
     value: 92, 
     suffix: '%', 
-    label: 'Placement Rate', 
-    sub: 'Found a job within 2 months',
+    labelKey: 'home.impact_stat3_label', 
+    subKey: 'home.impact_stat3_sub',
     icon: Clock 
   },
   { 
     value: 52, 
     suffix: '%', 
-    label: 'Young Women', 
-    sub: 'Bridging the gender gap in tech',
+    labelKey: 'home.impact_stat4_label', 
+    subKey: 'home.impact_stat4_sub',
     icon: Users 
   }
 ];
@@ -103,24 +105,21 @@ onMounted(() => {
           <span
         class="block text-sm tracking-widest uppercase text-shadow-lg text-white leading-tight mb-4"
       >
-        Our Impact
+        {{ t('home.impact_eye_catching_title') }}
       </span>
         <h2 class="text-secondary text-shadow-lg text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-          Real Lives, <br />
-          <span class="text-blue-50">Real Change</span>
+          {{ t('home.impact_title_line1') }} <br />
+          <span class="text-blue-50">{{ t('home.impact_title_line2') }}</span>
         </h2>
         
         <p class="text-white/90 text-lg md:text-xl leading-relaxed max-w-xl">
-          At PSS in partnership with PSS and others, we believe real impact is measured in real outcomes, 
-          skills gained, futures transformed, and communities strengthened. Our program empowers young 
-          people—especially those from rural and disadvantaged backgrounds—with the technical expertise 
-          and professional support needed to thrive in the digital economy.
+          {{ t('home.impact_description') }}
         </p>
 
         <div class="pt-4">
           <div class="inline-flex items-center p-4 bg-white/10 rounded-xl border border-white/20 backdrop-blur-sm">
             <p class="text-white text-sm md:text-base italic">
-              "With complete support for accommodation, food, equipment, and fully covered health costs, students can focus on learning and building a stable future."
+              {{ t('home.impact_quote') }}
             </p>
           </div>
         </div>
@@ -141,9 +140,9 @@ onMounted(() => {
             <span class="text-3xl font-bold text-gray-900">{{ stat.suffix }}</span>
           </div>
           
-          <h4 class="text-xl font-bold text-gray-800 mt-1">{{ stat.label }}</h4>
+          <h4 class="text-xl font-bold text-gray-800 mt-1">{{ t(stat.labelKey) }}</h4>
           <p class="text-gray-500 text-sm mt-2 leading-snug">
-            {{ stat.sub }}
+            {{ t(stat.subKey) }}
           </p>
         </div>
       </div>

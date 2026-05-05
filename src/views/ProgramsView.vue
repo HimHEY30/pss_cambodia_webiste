@@ -1,11 +1,12 @@
 <template>
     <div>
-        <h1>Program views</h1>
+        <h1>{{ t('menu.programs') }}</h1>
     </div>
 </template>
 
 <script setup>
-
+import { useI18n } from 'vue-i18n';
+const { t } = useI18n();
 </script>
 
 <style lang="scss" scoped>
