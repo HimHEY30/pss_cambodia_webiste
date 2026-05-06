@@ -1,91 +1,95 @@
+<script setup>
+import APD from '@/assets/images/partnership_logo/apd.jpg';
+import Amret from '@/assets/images/partnership_logo/amret.png';
+import ANZ from '@/assets/images/partnership_logo/jtrust.png';
+import Bred from '@/assets/images/partnership_logo/bred.webp';
+import NTC from '@/assets/images/partnership_logo/ntc-logo.png';
+import Sourcemax from '@/assets/images/partnership_logo/Sourceamax-Asia.jpg';
+import FIRSTCAMBODIA from '@/assets/images/partnership_logo/firstcambodia_logo.jpg';
+import HRInc from '@/assets/images/partnership_logo/hrinc_sq_logo.png';
+import DaiIchi from '@/assets/images/partnership_logo/daiichi.jpeg';
+import BizSolutions from '@/assets/images/partnership_logo/biz.png';
+import Udaya from '@/assets/images/partnership_logo/udaya.png';
+import Codinggate from '@/assets/images/partnership_logo/codinggate.png';
+import Confluence from '@/assets/images/partnership_logo/confluences.png';
+import theNGO from '@/assets/images/partnership_logo/thengo.png';
+import Niyda from '@/assets/images/partnership_logo/niyda.jpg';
+import bikay from '@/assets/images/partnership_logo/bikay.jpg';
+import itSolution from '@/assets/images/partnership_logo/it_solution.png';
+import idealink from '@/assets/images/partnership_logo/idealink.png';
+import endeavour from '@/assets/images/partnership_logo/endeavour.webp';
+import thalias from '@/assets/images/partnership_logo/thalias.webp';
+import BondosKomar from '@/assets/images/partnership_logo/bondoskoma.png';
+import { ref } from 'vue';
+
+// Simple Data Structure: Array of 20 Partner Objects
+const partners = ref(
+  [
+    { id: 1, name: 'APD Bank', logo: APD },
+    { id: 2, name: 'Amret', logo: Amret },
+    { id: 3, name: 'J Trust Royal Bank', logo: ANZ },
+    { id: 4, name: "BRED Bank", logo: Bred },
+    { id: 5, name: 'NTC', logo: NTC },
+    { id: 6, name: 'Sourceamax Asia', logo: Sourcemax },
+    { id: 7, name: 'First Cambodia', logo: FIRSTCAMBODIA },
+    { id: 8, name: 'HRINC. Cambodia', logo: HRInc },
+    { id: 9, name: 'Dai-ichi Life', logo: DaiIchi },
+    { id: 10, name: 'Biz Solution', logo: BizSolutions },
+    { id: 11, name: 'UDAYA Technology', logo: Udaya },
+    { id: 12, name: 'Codinggate', logo: Codinggate },
+    { id: 13, name: 'Confluences', logo: Confluence },
+    { id: 14, name: 'The NGO Forum', logo: theNGO },
+    { id: 15, name: 'Niyda', logo: Niyda },
+    { id: 16, name: 'Bikay', logo: bikay },
+    { id: 17, name: 'IT Solution', logo: itSolution },
+    { id: 18, name: 'Idealink', logo: idealink },
+    { id: 19, name: 'Endeavour', logo: endeavour },
+    { id: 20, name: 'Thalias', logo: thalias },
+    { id: 21, name: 'Bondos Komar', logo: BondosKomar }
+  ]
+);
+</script>
+
 <template>
-  <section class="bg-white py-20 overflow-hidden border-t border-slate-50">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8 mb-12">
-      <div class="flex items-center gap-3 mb-2">
-        <span class="h-px w-8 bg-secondary"></span>
-        <h2 class="text-xs font-bold tracking-[0.2em] text-secondary uppercase">
-          {{ t('home.partners.title') || 'Our Trusted Partners' }}
+  <section class="py-16 px-4 bg-white">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          Our Partners
         </h2>
+        <p class="mt-3 text-lg text-gray-500">
+          Working together with world-class organizations.
+        </p>
       </div>
-    </div>
 
-    <div class="relative flex overflow-x-hidden group">
-      <div class="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-white to-transparent z-10"></div>
-      <div class="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-white to-transparent z-10"></div>
-
-      <div class="flex animate-marquee whitespace-nowrap py-4">
-        <div 
-          v-for="(partner, index) in [...partners, ...partners]" 
-          :key="index"
-          class="mx-12 flex-shrink-0"
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+        <div
+          v-for="partner in partners"
+          :key="partner.id"
+          class="flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1"
         >
-          <a
-            :href="partner.website"
-            target="_blank"
-            class="flex flex-col items-center group/item transition-all duration-500"
-          >
-            <div class="w-24 h-24 rounded-2xl flex items-center justify-center bg-slate-50 border border-transparent group-hover/item:border-blue-100 group-hover/item:bg-white group-hover/item:shadow-xl group-hover/item:shadow-blue-500/5 transition-all duration-500 overflow-hidden mb-4">
-              
-              <img
-                v-if="partner.logoUrl"
-                :src="partner.logoUrl"
-                :alt="partner.name"
-                class="w-16 h-16 object-contain filter grayscale opacity-60 group-hover/item:grayscale-0 group-hover/item:opacity-100 transition-all duration-500"
-              />
-              
-              <div 
-                v-else 
-                class="w-full h-full flex items-center justify-center text-white text-3xl font-black bg-slate-200 group-hover/item:bg-primary transition-colors duration-500"
-              >
-                {{ getInitials(partner.name) }}
-              </div>
-            </div>
+          <div class="h-16 w-full flex items-center justify-center mb-4">
+            <img
+              :src="partner.logo"
+              :alt="partner.name"
+              class="max-h-full max-w-full object-contain"
+            />
+          </div>
 
-            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest group-hover/item:text-primary transition-colors duration-300">
-              {{ partner.name }}
-            </span>
-          </a>
+          <span class="text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 text-center">
+            {{ partner.name }}
+          </span>
         </div>
       </div>
+
     </div>
   </section>
 </template>
 
-<script setup>
-import { useI18n } from 'vue-i18n';
-const { t } = useI18n();
-
-const partners = [
-  { name: 'TechFlow', logoUrl: 'https://cdn.worldvectorlogo.com/logos/google-2015.svg', website: '#' },
-  { name: 'CloudScale', logoUrl: '', website: '#' },
-  { name: 'Apex Design', logoUrl: 'https://cdn.worldvectorlogo.com/logos/microsoft-5.svg', website: '#' },
-  { name: 'Global Link', logoUrl: '', website: '#' },
-  { name: 'EcoSystems', logoUrl: 'https://cdn.worldvectorlogo.com/logos/coca-cola-6.svg', website: '#' },
-  { name: 'Quantum', logoUrl: 'https://cdn.worldvectorlogo.com/logos/tesla-9.svg', website: '#' },
-];
-
-const getInitials = (name) => name.charAt(0).toUpperCase();
-</script>
-
 <style scoped>
-@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-.animate-marquee {
-  display: flex;
-  width: max-content;
-  animation: marquee 40s linear infinite;
-}
-
-/* Slow down on hover for a premium feel */
-.group:hover .animate-marquee {
-  animation-play-state: paused;
-}
-
-/* Ensure images don't look blurry */
-img {
-  image-rendering: -webkit-optimize-contrast;
+/* Standard CSS for fine-tuning letter spacing if needed */
+span {
+  font-family: 'Inter', sans-serif;
 }
 </style>

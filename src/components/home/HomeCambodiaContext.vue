@@ -42,7 +42,7 @@
 
           <div class="relative z-10 flex-shrink-0 text-center lg:text-left">
             <div class="inline-block px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-[10px] font-bold uppercase tracking-widest mb-4">
-               Critical Gap Detected
+               {{t('home.context.s4_eyes_catching_title')}}
             </div>
             <div class="text-6xl font-black text-white tracking-tighter mb-2">{{ t('home.context.s4_value') }}</div>
             <div class="text-sm font-bold text-blue-400 uppercase tracking-widest mb-4">{{ t('home.context.s4_title') }}</div>

@@ -19,28 +19,28 @@ const statsContainer = ref(null);
 // Statistics Data
 const stats = [
   { 
-    value: 1800, 
+    value: t('home.impact.stat1_value'), 
     suffix: '+', 
     labelKey: 'home.impact.stat1_label', 
     subKey: 'home.impact.stat1_sub',
     icon: GraduationCap 
   },
   { 
-    value: 98, 
+    value: t('home.impact.stat2_value'), 
     suffix: '%', 
     labelKey: 'home.impact.stat2_label', 
     subKey: 'home.impact.stat2_sub',
     icon: Briefcase 
   },
   { 
-    value: 92, 
+    value: t('home.impact.stat3_value'), 
     suffix: '%', 
     labelKey: 'home.impact.stat3_label', 
     subKey: 'home.impact.stat3_sub',
     icon: Clock 
   },
   { 
-    value: 52, 
+    value: t('home.impact.stat4_value'), 
     suffix: '%', 
     labelKey: 'home.impact.stat4_label', 
     subKey: 'home.impact.stat4_sub',

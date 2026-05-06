@@ -3,14 +3,14 @@
         <!-- Logo -->
         <div class="flex items-center gap-3 flex-shrink-0">
             <img src="@/assets/images/pss_logo.png" alt="PSS Logo" class="w-10 h-10 sm:w-12 sm:h-12">
-            <div class="hidden sm:block">
+            <div>
                 <h1 class="font-bold text-base sm:text-lg leading-none">{{t('common.pss.short_name')}}</h1>
                 <p class="text-xs">{{t('common.pss.name')}}</p>
             </div>
         </div>
 
         <!-- Desktop Menu -->
-        <ul class="hidden lg:flex gap-2 xl:gap-4 flex-1 justify-center">
+        <ul class="hidden lg:flex gap-1 xl:gap-2 flex-1 justify-center">
             <li><router-link to="/"
                     class="px-2 py-2 text-sm xl:text-base rounded-lg hover:bg-primary-light hover:transition duration-300">{{
                         t('common.navbar.home') }}</router-link>
